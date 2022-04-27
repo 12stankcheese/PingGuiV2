@@ -19,6 +19,18 @@ local UICorner_5 = Instance.new("UICorner")
 local PingWingGui = Instance.new("TextLabel")
 local TextButton_5 = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local PingWingGui_2 = Instance.new("TextLabel")
+local PingWingGui_3 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 
 --Properties:
 
@@ -67,7 +79,7 @@ UICorner_2.Parent = Frame2
 
 TextButton_2.Parent = Frame2
 TextButton_2.BackgroundColor3 = Color3.fromRGB(16, 35, 153)
-TextButton_2.Position = UDim2.new(0.0420875363, 0, 0.467699498, 0)
+TextButton_2.Position = UDim2.new(0.0420875363, 0, 0.390522003, 0)
 TextButton_2.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
 TextButton_2.Font = Enum.Font.Bangers
 TextButton_2.Text = "Dealer2"
@@ -82,7 +94,7 @@ UICorner_3.Parent = TextButton_2
 
 TextButton_3.Parent = Frame2
 TextButton_3.BackgroundColor3 = Color3.fromRGB(115, 255, 105)
-TextButton_3.Position = UDim2.new(0.530303001, 0, 0.286465973, 0)
+TextButton_3.Position = UDim2.new(0.530303001, 0, 0.257065028, 0)
 TextButton_3.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
 TextButton_3.Font = Enum.Font.Bangers
 TextButton_3.Text = "PkDealer"
@@ -97,7 +109,7 @@ UICorner_4.Parent = TextButton_3
 
 TextButton_4.Parent = Frame2
 TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 70, 38)
-TextButton_4.Position = UDim2.new(0.0420875363, 0, 0.289389044, 0)
+TextButton_4.Position = UDim2.new(0.0420875363, 0, 0.259988099, 0)
 TextButton_4.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
 TextButton_4.Font = Enum.Font.Bangers
 TextButton_4.Text = "Dealer1"
@@ -124,13 +136,12 @@ PingWingGui.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 PingWingGui.TextStrokeTransparency = 0.000
 PingWingGui.TextWrapped = true
 
-TextButton_5.Parent = PingGuiV2
-TextButton_5.BackgroundColor3 = Color3.fromRGB(16, 35, 153)
-TextButton_5.Position = UDim2.new(0.865152299, 0, 0.944856882, 0)
-TextButton_5.Size = UDim2.new(0.12839599, 0, 0.0543147326, 0)
-TextButton_5.Visible = false
+TextButton_5.Parent = Frame2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(216, 255, 38)
+TextButton_5.Position = UDim2.new(0.530303001, 0, 0.393044442, 0)
+TextButton_5.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
 TextButton_5.Font = Enum.Font.Bangers
-TextButton_5.Text = "Open/Hide"
+TextButton_5.Text = "MaskDealer"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
@@ -140,9 +151,115 @@ TextButton_5.TextWrapped = true
 
 UICorner_6.Parent = TextButton_5
 
+TextButton_6.Parent = Frame2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(187, 70, 255)
+TextButton_6.Position = UDim2.new(0.04208754, 0, 0.834058702, 0)
+TextButton_6.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
+TextButton_6.Font = Enum.Font.Bangers
+TextButton_6.Text = "Glock"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextStrokeTransparency = 0.000
+TextButton_6.TextWrapped = true
+
+UICorner_7.Parent = TextButton_6
+
+TextButton_7.Parent = Frame2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(187, 70, 255)
+TextButton_7.Position = UDim2.new(0.530303001, 0, 0.837733865, 0)
+TextButton_7.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
+TextButton_7.Font = Enum.Font.Bangers
+TextButton_7.Text = "GlockEXT"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextStrokeTransparency = 0.000
+TextButton_7.TextWrapped = true
+
+UICorner_8.Parent = TextButton_7
+
+PingWingGui_2.Name = "PingWing Gui"
+PingWingGui_2.Parent = Frame2
+PingWingGui_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PingWingGui_2.BackgroundTransparency = 1.000
+PingWingGui_2.Position = UDim2.new(-0.00420875428, 0, 0.135979414, 0)
+PingWingGui_2.Size = UDim2.new(0.999999464, 0, 0.100000009, 0)
+PingWingGui_2.Font = Enum.Font.Bangers
+PingWingGui_2.Text = "Dealers"
+PingWingGui_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+PingWingGui_2.TextScaled = true
+PingWingGui_2.TextSize = 14.000
+PingWingGui_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PingWingGui_2.TextStrokeTransparency = 0.000
+PingWingGui_2.TextWrapped = true
+
+PingWingGui_3.Name = "PingWing Gui"
+PingWingGui_3.Parent = Frame2
+PingWingGui_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PingWingGui_3.BackgroundTransparency = 1.000
+PingWingGui_3.Position = UDim2.new(0, 0, 0.52554208, 0)
+PingWingGui_3.Size = UDim2.new(0.999999464, 0, 0.100000009, 0)
+PingWingGui_3.Font = Enum.Font.Bangers
+PingWingGui_3.Text = "Gun/Gun Mods"
+PingWingGui_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+PingWingGui_3.TextScaled = true
+PingWingGui_3.TextSize = 14.000
+PingWingGui_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PingWingGui_3.TextStrokeTransparency = 0.000
+PingWingGui_3.TextWrapped = true
+
+TextButton_8.Parent = Frame2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(187, 70, 255)
+TextButton_8.Position = UDim2.new(0.530303001, 0, 0.661328137, 0)
+TextButton_8.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
+TextButton_8.Font = Enum.Font.Bangers
+TextButton_8.Text = "GlockDrum"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextStrokeTransparency = 0.000
+TextButton_8.TextWrapped = true
+
+UICorner_9.Parent = TextButton_8
+
+TextButton_9.Parent = Frame2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(187, 70, 255)
+TextButton_9.Position = UDim2.new(0.0420875251, 0, 0.661328137, 0)
+TextButton_9.Size = UDim2.new(0.419865191, 0, 0.100000009, 0)
+TextButton_9.Font = Enum.Font.Bangers
+TextButton_9.Text = "GlockBeam"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextStrokeTransparency = 0.000
+TextButton_9.TextWrapped = true
+
+UICorner_10.Parent = TextButton_9
+
+TextButton_10.Parent = PingGuiV2
+TextButton_10.BackgroundColor3 = Color3.fromRGB(16, 35, 153)
+TextButton_10.Position = UDim2.new(0.865152299, 0, 0.944856882, 0)
+TextButton_10.Size = UDim2.new(0.12839599, 0, 0.0543147326, 0)
+TextButton_10.Visible = false
+TextButton_10.Font = Enum.Font.Bangers
+TextButton_10.Text = "Open/Hide"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextStrokeTransparency = 0.000
+TextButton_10.TextWrapped = true
+
+UICorner_11.Parent = TextButton_10
+
 -- Scripts:
 
-local function LDDY_fake_script() -- TextButton.LocalScript 
+local function JNWF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local db = true
@@ -151,7 +268,7 @@ local function LDDY_fake_script() -- TextButton.LocalScript
 	local button = script.Parent
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		if player.Name == "IndianRedPing" or player.Name == "glizzylou" or player.Name == "PeptoBismoII" then
+		if player.Name == "IndianRedPing" or player.Name == "glizzylou" or player.Name == "PeptoBismoII" or player.Name == "YoLocalTay" then
 			button.Parent.Parent.TextButton.Visible = true
 			script.Parent:Destroy()
 		else
@@ -161,8 +278,8 @@ local function LDDY_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LDDY_fake_script)()
-local function VRHN_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JNWF_fake_script)()
+local function SNWDMI_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local db = true
@@ -189,8 +306,8 @@ local function VRHN_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VRHN_fake_script)()
-local function UBVEG_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(SNWDMI_fake_script)()
+local function BTLLZRN_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local db = true
@@ -217,8 +334,8 @@ local function UBVEG_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UBVEG_fake_script)()
-local function SJZUGX_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(BTLLZRN_fake_script)()
+local function LJRK_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local db = true
@@ -245,9 +362,89 @@ local function SJZUGX_fake_script() -- TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SJZUGX_fake_script)()
-local function GHZAEY_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(LJRK_fake_script)()
+local function UHGWU_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
+
+	local db = true
+	local player = game.Players.LocalPlayer
+	local delay = 3
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if db == true and game.Workspace.MickelMask:FindFirstChild("ShopDesk") then
+			db = false
+			player.Character.HumanoidRootPart.CFrame = game.Workspace.MickelMask.ShopDesk.Head.CFrame * CFrame.new(0, 3, 0)
+			for i = delay, 1, -1 do
+				script.Parent.Text = i
+				wait(1)
+			end
+			script.Parent.Text = "MaskDealer"
+			db = true
+		elseif db == true and not game.Workspace.MickelMask:FindFirstChild("ShopDesk") then
+			script.Parent.Text = "Dealer Not Found"
+			db = false
+			wait(1)
+			script.Parent.Text = "MaskDealer"
+			db = true
+		end
+	end)
+end
+coroutine.wrap(UHGWU_fake_script)()
+local function BHXSPSK_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local db = true
+	local player = game.Players.LocalPlayer
+	local delay = 3
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Events.Shop:FireServer("Weps", 400, "Glock", Shop, Validate)
+	end)
+end
+coroutine.wrap(BHXSPSK_fake_script)()
+local function JCCMUS_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local db = true
+	local player = game.Players.LocalPlayer
+	local delay = 3
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Events.Shop:FireServer("Customization", 150, "GlockExt", GlockCustomization, Validate)
+	end)
+end
+coroutine.wrap(JCCMUS_fake_script)()
+local function FDJIJ_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local db = true
+	local player = game.Players.LocalPlayer
+	local delay = 3
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Events.Shop:FireServer("Customization", 200, "GlockDrum", GlockCustomization, Validate)
+	end)
+end
+coroutine.wrap(FDJIJ_fake_script)()
+local function PLHAFCA_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local db = true
+	local player = game.Players.LocalPlayer
+	local delay = 3
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Events.Shop:FireServer("Customization", 75, "GlockBeam", GlockCustomization, Validate)
+	end)
+end
+coroutine.wrap(PLHAFCA_fake_script)()
+local function WJUAQE_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
 
 	local db = true
 	local player = game.Players.LocalPlayer
@@ -264,4 +461,4 @@ local function GHZAEY_fake_script() -- TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GHZAEY_fake_script)()
+coroutine.wrap(WJUAQE_fake_script)()
